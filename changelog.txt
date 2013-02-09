@@ -1,0 +1,27 @@
+Version 1.4
+    * change license to LGPL v3
+    * change plugin sign in hooks  
+    * code cleanup      
+
+
+
+Version 1.3
+    * add compatibility with MyBB 1.6.5
+
+
+
+Version 1.2
+    * rewrite to OOP
+    * small fix in plugin task
+    * added expire/close desc in template
+
+
+
+Version 1.1
+    * small fix in permission check function
+    * small fix in load lang
+
+
+
+Version 1.0
+    * first version
