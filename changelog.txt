@@ -1,8 +1,13 @@
+Version 1.5
+    * fix quick reply expire/close data disappear
+
+
+
 Version 1.4
     * change license to LGPL v3
     * change plugin sign in hooks  
     * code cleanup      
-
+      
 
 
 Version 1.3

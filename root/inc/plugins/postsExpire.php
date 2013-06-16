@@ -53,7 +53,7 @@ function postsExpire_info()
         "website" => "http://lukasztkacz.com",
         "author" => 'Lukasz Tkacz',
         "authorsite" => "http://lukasztkacz.com",
-        "version" => "1.4",
+        "version" => "1.5",
         "guid" => "c2b470e3b4521fe3441a12dcd0d8d6af",
         "compatibility" => "16*"
     );
@@ -275,7 +275,7 @@ class postsExpire
      */
     private function setExpireTime(&$post)
     {
-        if (!$this->typeData['status'] || $this->isDisallowed())
+        if (THIS_SCRIPT == 'xmlhttp.php' || !$this->typeData['status'] || $this->isDisallowed())
         {
             return;
         }
